@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(207, 179, 193);
+}
+img {
+    width: 100%;
+    border: 10px solid beige;
+    position: relative;
+}
+.intro {
+    color: #583d72;
+    margin: 40px solid lightgreen;
+}
+.intro h2 {
+    text-align: center;
+    font-size: 60px;
+
+}
+.intro ul{
+    font-style: italic;
+}
+.intro ul li{
+    text-transform: uppercase;
+}
