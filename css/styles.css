@@ -8,6 +8,9 @@ img {
     width: 30%;
     height: 500px;
 }
+.two {
+    float: right;
+}
 .intro {
     color: #583d72;
     background-color: #d0e8f2;
@@ -17,7 +20,7 @@ img {
 }
 .intro h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
 
 }
 .intro ul{
