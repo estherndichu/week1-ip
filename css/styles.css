@@ -10,8 +10,10 @@ img {
 }
 .intro {
     color: #583d72;
-    margin: 40px solid lightgreen;
     background-color: #d0e8f2;
+    border: 5px solid wheat;
+    padding: 20px;
+    margin: 2px;
 }
 .intro h2 {
     text-align: center;
@@ -27,6 +29,9 @@ img {
 .about {
     color: black;
     background-color: #79a3b1;
+    border: 5px solid wheat;
+    padding: 15px;
+    margin: 2px;
 }
 .about h3 {
     font-size: 35px;
@@ -38,6 +43,9 @@ img {
 .hobbies {
     color: black;
     background-color: #456268;
+    border: 5px solid wheat;
+    padding: 15px;
+    margin: 2px;
 }
 .hobbies h2 {
     text-transform: uppercase;
