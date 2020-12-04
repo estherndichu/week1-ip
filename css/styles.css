@@ -4,12 +4,9 @@ body {
 }
 img {
     border: 10px solid beige;
-    position: relative;
-    width: 320px;
+    width: 30%;
     height: 640px;
     height: 500px;
-}
-.two {
     float: right;
 }
 .intro {
