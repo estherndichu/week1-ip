@@ -21,3 +21,14 @@ img {
 .intro ul li{
     text-transform: uppercase;
 }
+.about {
+    color: red;
+    background-color: white;
+}
+.about h3 {
+    font-size: 35px;
+    color: black;
+}
+.about p {
+    line-height: 30px;
+}
