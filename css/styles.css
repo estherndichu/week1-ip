@@ -2,16 +2,16 @@ body {
     background-color: #fcf8ec;
     font-size: 20px;
 }
-img {
-    border: 11px solid beige;
-    width: 30%;
-    height: 640px;
-    height: 500px;
-    float: right;
+.img {
+    display: flex;
+    background-color: #d0e8f2;
 }
-.two{
-    float: left;
-    width: 35%;
+.image {
+    width: 32%;
+    height: 640px;
+    float: right;
+    border: 11px solid beige;
+    padding: 5px solid wheat;
 }
 .intro {
     color: #583d72;
@@ -20,7 +20,7 @@ img {
     padding: 20px;
     margin: 2px;
 }
-.intro h2 {
+h2 {
     text-align: center;
     font-size: 50px;
 
