@@ -23,6 +23,7 @@ body {
 h2 {
     text-align: center;
     font-size: 50px;
+    text-transform: uppercase;
 
 }
 .intro ul{
@@ -85,6 +86,70 @@ h2 {
     h2 {
         text-align: center;
         font-size: 20px;
+        text-transform: uppercase;
+    
+    }
+    .intro ul{
+        font-style: italic;
+    }
+    .intro ul li{
+        text-transform: uppercase;
+    }
+    .about {
+        color: black;
+        background-color: #79a3b1;
+        border: 5px solid wheat;
+        padding: 15px;
+        margin: 2px;
+    }
+    .about p {
+        line-height: 30px;
+    }
+    .hobbies {
+        color: black;
+        background-color: #456268;
+        border: 5px solid wheat;
+        padding: 15px;
+        margin: 2px;
+    }
+    .hobbies ol {
+        line-height: 30px;
+        font-style: oblique;
+    }
+    .language {
+        color: brown;
+    }
+    .body {
+        display: inline;
+    }
+} 
+@media screen and (min-width:481px) and (max-width:768px) {
+    body {
+        background-color: #fcf8ec;
+        font-size: 18px;
+        width: 90%;
+    }
+    .img {
+        display: flex;
+        background-color: #d0e8f2;
+    }
+    .image {
+        width: 32%;
+        height: 640px;
+        float: right;
+        border: 11px solid beige;
+        padding: 5px solid wheat;
+    }
+    .intro {
+        color: #583d72;
+        background-color: #d0e8f2;
+        border: 5px solid wheat;
+        padding: 20px;
+        margin: 2px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 30px;
         text-transform: uppercase;
     
     }
