@@ -38,10 +38,6 @@ h2 {
     padding: 15px;
     margin: 2px;
 }
-.about h3 {
-    font-size: 35px;
-    color: red;
-}
 .about p {
     line-height: 30px;
 }
@@ -51,10 +47,6 @@ h2 {
     border: 5px solid wheat;
     padding: 15px;
     margin: 2px;
-}
-.hobbies h2 {
-    text-transform: uppercase;
-    font-size: 35px;
 }
 .hobbies ol {
     line-height: 30px;
@@ -66,3 +58,67 @@ h2 {
 .body {
     display: flex;
 }
+@media screen and (min-width:320px) and (max-width:480px) {
+    body {
+        background-color: #fcf8ec;
+        font-size: 10px;
+        width: 100%;
+    }
+    .img {
+        display: flex;
+        background-color: #d0e8f2;
+    }
+    .image {
+        width: 32%;
+        height: 640px;
+        float: right;
+        border: 11px solid beige;
+        padding: 5px solid wheat;
+    }
+    .intro {
+        color: #583d72;
+        background-color: #d0e8f2;
+        border: 5px solid wheat;
+        padding: 20px;
+        margin: 2px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    
+    }
+    .intro ul{
+        font-style: italic;
+    }
+    .intro ul li{
+        text-transform: uppercase;
+    }
+    .about {
+        color: black;
+        background-color: #79a3b1;
+        border: 5px solid wheat;
+        padding: 15px;
+        margin: 2px;
+    }
+    .about p {
+        line-height: 30px;
+    }
+    .hobbies {
+        color: black;
+        background-color: #456268;
+        border: 5px solid wheat;
+        padding: 15px;
+        margin: 2px;
+    }
+    .hobbies ol {
+        line-height: 30px;
+        font-style: oblique;
+    }
+    .language {
+        color: brown;
+    }
+    .body {
+        display: inline;
+    }
+} 
