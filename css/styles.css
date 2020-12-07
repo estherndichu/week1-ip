@@ -5,6 +5,7 @@ body {
 .img {
     display: flex;
     background-color: #d0e8f2;
+    border-radius: 50%;
 }
 .image {
     width: 32%;
