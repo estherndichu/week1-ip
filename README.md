@@ -5,6 +5,6 @@ This is an independent project in the first week of Prep Course in Moringa Schoo
 ## Setup/Installation Requirements
 This project should run once you've clicked on the link provided
 ## Project Link
-https://github.com/estherndichu/week1-ip.git
+https://estherndichu.github.io/week1-ip/
 ### License
 Copyright (c) 2020 Esther Wangui Ndichu
