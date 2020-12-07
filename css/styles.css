@@ -7,16 +7,20 @@ header {
     padding: 20px;
 }
 .img {
-    display: flex;
-    background-color: #d0e8f2;
-    border-radius: 50%;
-}
-.image {
-    width: 32%;
-    height: 640px;
-    float: right;
+    
     border: 11px solid beige;
     padding: 5px solid wheat;
+    
+}
+.image{
+    width: 32%;
+    height: 640px;
+    border-radius: 50%;
+    border: 5px solid wheat;
+    padding: 20px;
+    margin: 2px;
+    position: relative;
+    left: 30%;
 }
 .intro {
     color: black;
@@ -63,6 +67,7 @@ h2 {
 }
 .body {
     display: flex;
+    position: re;
 }
 .footer{
     display: flex;
@@ -76,7 +81,6 @@ h2 {
         width: 100%;
     }
     .img {
-        display: flex;
         background-color: #d0e8f2;
     }
     .image {
@@ -85,6 +89,7 @@ h2 {
         float: right;
         border: 11px solid beige;
         padding: 5px solid wheat;
+       
     }
     .intro {
         color: #583d72;
